@@ -5,14 +5,13 @@
 .profileimg {
     border: 1px solid #ddd;
     border-radius: 4px;
-    padding: 5px;
+    padding: 20px;
     width: auto;
-    height: 250px;
+    height: 300px;
     float: right;
 }
 .aboutmetext {
     width: 70%;
-    float: left;
 }
 .name {
   font-family: cursive;
