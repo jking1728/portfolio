@@ -12,7 +12,7 @@ _This is the landing page for my portfolio of my work while at Epidcodus_
 
 * _Clone this repository._
 * _Open index.html to see the final product!_
-* _Bootstrap is used off a CDN_
+* _Bootstrap is used off a CDN so an internet connection is **required**_
 
 ## Technologies Used
 
