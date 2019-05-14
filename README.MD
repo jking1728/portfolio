@@ -18,6 +18,10 @@ _This is the landing page for my portfolio of my work while at Epidcodus_
 
 _HTML, CSS, Bootstrap_
 
+## Github pages
+
+[Click here](https://github.com/jking1728/portfolio/releases)
+
 ### License
 
 *This software is licensed under the MIT license.*
