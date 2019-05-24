@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
         <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/scripts.js"></script>
         <title>Jordan's Portfolio</title>
     </head>
     <body>
         <div class="container">
+            <p class="right-align">
+                <button type="button" class="btn btn-default btn-xs" id="light-mode">Light Mode</button>
+                <button type="button" class="btn btn-default btn-xs" id="dark-mode">Dark Mode</button>
+            </p>
             <div class="jumbotron">
+                
                 <h1>Jordan's Portfolio</h1>
             </div>
             <img src="media/profileimg.jpg" class="profile-img" class="img-responsive" alt="profile picture of Jordan">
@@ -28,17 +35,20 @@
                 <div class="col-md-12">
                     <h2>Projects</h2>
                     <p>Here's all my projects <em>so far</em>! <strong>Click</strong> the titles to see the git repositories!</p>
-                    <ol>Schedule Week:
+                    <ol>Schedule:
                         <li>Git, command line, markdown, HTML</li>
                         <li>Readme, CSS, Divs and Spans, Floats, Box Model</li>
                         <li>Cascading, Bootstrap</li>
+                        <li>JavaScript and JQuery: variables, strings, methods, functions</li>
+                        <li>JavaScript and JQuery: JQuery effects, DOM manipulation, variable scope, forms</li>
+                        <li>JavaScript and JQuery: form input types, debugging in JavaScript, Calculator app</li>
                     </ol>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-4">
-                    <div class="panel panel-info">
+                    <div class="panel panel-danger">
                         <div class="panel-heading">
                             <a class="panel-title" href="https://github.com/jking1728/hello-world">Hello world</a>
                         </div>
@@ -49,7 +59,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="panel panel-info">
+                    <div class="panel panel-danger">
                         <div class="panel-heading">
                             <a class="panel-title" href="https://github.com/jking1728/goodbye">Goodbye world</a>
                         </div>
@@ -60,7 +70,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="panel panel-info">
+                    <div class="panel panel-danger">
                         <div class="panel-heading">
                             <a class="panel-title" href="https://github.com/jking1728/my-first-webpage">My first webpage</a>
                         </div>
@@ -73,7 +83,7 @@
 
             <div class="row">
                 <div class="col-md-4">
-                    <div class="panel panel-info">
+                    <div class="panel panel-danger">
                         <div class="panel-heading">
                             <a class="panel-title" href="https://github.com/jking1728/blogging">Blogging</a>
                         </div>
@@ -84,7 +94,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="panel panel-info">
+                    <div class="panel panel-danger">
                         <div class="panel-heading">
                             <a class="panel-title" href="https://github.com/jking1728/week-in-review">Week in review</a>
                         </div>
@@ -95,7 +105,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="panel panel-info">
+                    <div class="panel panel-danger">
                         <div class="panel-heading">
                             <a class="panel-title" href="https://github.com/jking1728/portfolio.git">Portfolio</a>
                         </div>
@@ -104,8 +114,43 @@
                         </div>
                     </div>
                 </div>
-
             </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">
+                            <a class="panel-titel" href="">project name</a>
+                        </div>
+                        <div class="panel-body">
+                            <p>project description</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">
+                            <a class="panel-titel" href="">project name</a>
+                        </div>
+                        <div class="panel-body">
+                            <p>project description</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">
+                            <a class="panel-titel" href="">project name</a>
+                        </div>
+                        <div class="panel-body">
+                            <p>project description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
         </div>
     </body>
 </html>

@@ -1,10 +1,29 @@
 .jumbotron {
     text-align: center;
+    border: 5px solid rgb(255, 132, 132);
+    background-color: inherit;
 }
-
+.darkmode {
+    background-color: black;
+    color: white;
+}
+#dark-mode {
+    background-color: black;
+    color: white;
+}
+.panel {
+    background-color: inherit;
+}
+a {
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: underline;
+    color: inherit;
+}
 .profile-img {
     margin: 30px;
-    border: 5px solid lightblue;
+    border: 5px solid rgb(255, 132, 132);
     border-radius: 4px;
     padding: 4px;
     width: auto;
@@ -16,4 +35,10 @@
 }
 .name {
   font-family: cursive;
+}
+.right-align {
+    float: right;
+}
+#light-mode {
+    display: none;
 }
